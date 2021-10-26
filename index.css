@@ -1,0 +1,388 @@
+*{
+	padding: 0px;
+	margin:0px;
+	box-sizing: border-box;
+}
+#container
+{
+	width:100%;
+	height:1500px;
+	background-color:transparent;}
+.section
+{
+	background-image:linear-gradient(to bottom right,rgba(41, 128, 185,0.1),rgba(52, 152, 219,0.1)),url(7-Demonized-BodyBuilding-Food-Gallery.jpg);
+	height:999px;
+	background-position:center;
+	background-size:cover;
+}
+header{
+	width:100%;
+	background-color:transparent;
+	border-top-left-radius:30px;
+	color:#00F;
+	text-align:center;
+	}
+.dropdown{
+	position:relative;
+	display:inline-block;
+	padding-bottom: 20px;
+	padding-left: 0px;
+	padding-right: 20px;
+	padding-top: 20px;
+}
+.dropbtn {
+	background-color:transparent;
+	color:#FFF;
+	padding:0px;
+	font-size:23px;
+	border:none;
+	font-weight:500;
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color:transparent;
+  font-size:30px;
+  border-radius:8px;
+  min-width: 160px;
+  box-shadow: linear-gradient(to bottom, rgba( 900, 900, 252, 0.52), rgba(900, 19, 900, 0.54));
+  z-index: 1;
+background-color:transparent;
+	color:#FFF;
+	padding:0px;
+	font-size:23px;
+	border:none;
+	font-weight:500;
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+}
+.dropdown-content a {
+  color:#fff;
+  padding: 12px 16px;
+  text-decoration: none;
+  border-radius:1px;
+  display: block;
+}
+.dropdown-content a:hover {
+	background-color:#0984e3; 
+	}
+.dropdown:hover .dropdown-content{
+	display: block;
+}
+.dropdown:hover .dropbtn {
+	background-color:transparent; 
+	border-radius:15px;  
+	color:#0984e3;
+	transition-delay:0.1s;
+	transition:0.3s;
+}
+.box{
+	width:240px;
+	height:240px;
+	background-color:#9b59b6;
+	float:right;
+	margin-right:270px;
+	margin-top:50px;
+}
+.box1{
+	width:240px;
+	height:240px;
+	background-color:#3498db;
+	float:right;
+	margin-right:10px;
+	margin-top:50px;
+	}	
+.box2{
+	width:240px;
+	height:240px;
+	background-color:#2ecc71;
+	float:right;
+	margin-top:-550px;
+	margin-right:520px;
+}
+.box3{
+	width:240px;
+	height:240px;
+	background-color:#e67e22;
+	float:right;
+	margin-top:-550px;
+	margin-right:270px;
+}	
+.boxhp{
+	width:490px;
+	height:240px;
+	background-color:transparent;
+	float:right;
+	margin-top:-250px;
+	margin-right:270px;
+	}		
+.section2{
+	background-image:linear-gradient(to bottom right,rgba(41, 128, 185,0.3),rgba(52, 152, 219,0.2)),url(KBMinimalism.jpg);
+	height:450px;
+	background-size:cover;
+	background-position:center;
+	margin-top:70px;
+}
+.igbox{
+	width:1450px;
+	height:900px;
+	background-color:transparent;	}	
+.button{
+	width:200px;
+	height:100px;
+	color:#CC9;
+	background-color:#C66;}
+.boxcop{
+		width:1300px;
+	height:280px;
+	background-color:transparent;
+	}
+.picbox{
+		width:120px;
+		height:170px;
+		background-color:transparent;
+		float:left;
+		margin-left:75px; 
+		transition: 0.2s;
+}
+.picbox:hover{
+	 box-shadow: 0 0 15px rgba(33,33,33,1);}
+.section3{
+	height:890px;
+	background-image:linear-gradient(to bottom right,rgba(41, 128, 185,0.2),rgba(52, 152, 219,0.5)) ,url(victor-freitas-vqDAUejnwKw-unsplash.jpg);
+	background-size:cover;
+	background-position:center;
+	}
+td{
+	text-align:center;
+	background-color:#fff;
+	}
+.ctd{
+	text-align:center;
+	background-color:transparent;
+	}	
+.boxhp2{
+	width:500px;
+	height:150px;
+	background-color:transparent;
+	margin-left:-730px;
+	}
+.news{
+	width:1450px;
+	height:600px;
+	background-color:transparent;
+	}
+.newsbox{
+	width:394px;
+	height:350px;
+	background-color:transparent;
+	text-align:left;
+	float:left;
+	margin-left:30px;
+	border-color:;
+	border:2px #CCC;
+	border-style:solid;
+	}
+.section4{
+	height:900px;
+	background-image:linear-gradient(to bottom right,rgba(41, 128, 185,0.2),rgba(52, 152, 219,0.5)) , url(victor.jpg);
+	background-position:center; background-size:cover;
+	margin-top:100px;
+	}
+input[type=text], select, textarea{
+	width:400px;
+	padding:12px;
+	border:1px solid #ccc;
+	border-radius:1px;
+	box-sizing:border-box;
+	margin-top:6px;
+	margin-bottom:16px;
+	resize:vertical;
+	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana,sans-serif;
+	}
+input[type=password]{
+		width:400px;
+	padding:12px;
+	border:1px solid #ccc;
+	border-radius:1px;
+	box-sizing:border-box;
+	margin-top:6px;
+	margin-bottom:16px;
+	resize:vertical;
+	font-family:"Lucida Grande", "Lucida Sans 		Unicode", "Lucida Sans", "DejaVu Sans", Verdana, 	sans-serif;
+	}
+input[type=submit] {
+  background-color: #0984e3;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 1px;
+  cursor: pointer;
+  float:left;
+  margin-left:50px;
+		font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, 		sans-serif;
+	}
+input[type=submit]:hover {
+  background-color: white;
+  color:#0984e3;
+  font-weight:400;	
+  	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+}
+.feedbox{
+	width:700px;
+	height:300px;
+	background-color:transparent;
+	margin-left:50px;
+	float:left;
+	}
+.boxfeed2{
+	width:900px;
+	height:900px;
+	background-color:transparent;
+	}
+.footerbox{
+		width:900px;
+		height:100px;
+		background-color:transparent;
+		}
+.headbox{
+	height:150px;
+	background-position:center;
+	background-size:cover;
+	background-image: linear-gradient(to bottom right,rgba(41, 128, 185,0.2),rgba(52, 152, 219,0.5)) , url(leg.gif);
+	background-position:right;
+	background-size:cover;
+	
+}
+<!--loading-->
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	font-family:'poppins', sans-serif;
+	}
+section{
+	padding:0px;
+	}
+section h2{
+		font-size:4em;
+		color:#4b656d;
+	}
+section h2 span{
+		display:block;
+		font-size:0.5em;
+		color:#ff4983;
+	}
+section p{
+		margin-top:0px;
+		font-size:1.2em;
+		}
+.preloader{
+	position:fixed;
+	top:0;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	width:100%;
+	height:100vh;
+	background:#069;
+	z-index:100000000;
+	}
+.preloader:before{
+	content:'Loading...';
+	position:absolute;
+	font-size:12em;
+	font-weight:900;
+	text-transform:uppercase;
+	color:rgba(255,255,255,.03);
+	}
+.preloader.active{
+	transform:translateY(-100vh);
+	transition:ease-in-out 2s;
+	transition-delay:1s;
+	}
+.counter{position:relative;
+	color:#fff;
+	font-size:16em;
+	font-weight:700;
+	z-index:1;}
+.counter:after{
+	content: '%';
+	font-size:0.5em;
+}
+.hide{
+	opacity:0;
+	transition:1s;
+	pointer-events: none;
+	}
+.close{
+	font-size:20px;
+	color:white;
+	padding:0;
+	float:right;
+	cursor:pointer;
+	background:transparent;
+	display:inline-block;
+	border-radius:4px;
+	}
+#contain{
+	width:500px;
+	display: none;
+	overflow:hidden;
+	background-image:linear-gradient(to bottom right,rgba(41, 128, 185,0.4),rgba(52, 152, 219,0.6)) ,url(7-Demonized-BodyBuilding-Food-Gallery.jpg);
+	background-position:center;
+	background-size:cover;
+	box-shadow:0 0 15px rgba(33,33,33,7);
+	border-radius:8px;
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	z-index:9999;
+	padding:10px;
+	text-align:center;
+	margin-top:350%;
+	margin-left:-100% 
+	}
+.log{
+		width:400px;
+		padding:0px;
+		position:absolute;
+		top:55%;
+		left:50%;
+		transform:translate(-50%,-50%);
+		background:#3FC;
+		text-align:center;
+		color:FFF;
+	}
+.log h1
+{
+	color:#FFF;
+	text-transform:uppercase;
+	font-weight:500;
+	}
+.log input[type="text"],.log input[type="password"]{
+	width:400px;
+	padding:12px;
+	border:1px solid #ccc;
+	border-radius:1px;
+	box-sizing:border-box;
+	margin-top:6px;
+	margin-bottom:16px;
+	resize:vertical;float:left;
+	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;}
+
+.log input[type="submit"]{
+	background-color: #0984e3;
+  	color:black;
+  	padding: 12px 20px;
+  	border: none;
+  	border-radius: 1px;
+  	cursor: pointer;
+  	float:left;
+    margin-left:100px;
+	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;}
+.log input[type="submit"]:hover{
+	
+	border-color:#A72609;
+	}

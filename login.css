@@ -1,0 +1,185 @@
+
+.boxhp{
+	width:490px;
+	height:190px;
+	background-color:transparent;
+	float:right;
+	margin-top:-250px;
+	margin-right:270px;
+	
+	
+}
+.signupbox{
+	width:830px;
+	height:500px;
+	background-color:transparent;
+	
+	float:left;}
+.signoutbox{
+	height:700px;
+	background-color:#966;
+	text-align:center;
+	background-image:linear-gradient(to bottom right,rgba(41, 128, 185,0.2),rgba(52, 152, 219,0.5)), url(bruno-nascimento-PHIgYUGQPvU-unsplash.jpg);
+	background-position:center;
+	background-size:cover;
+	margin-top:23px;}
+input[type=date]{
+	width:400px;
+	padding:12px;
+	border:1px solid #ccc;
+	border-radius:1px;
+	box-sizing:border-box;
+	margin-top:6px;
+	margin-bottom:16px;
+	resize:vertical;
+	float:left;
+	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	
+	}
+input[type=number]{
+	width:400px;
+	padding:12px;
+	border:1px solid #ccc;float:left;
+	border-radius:1px;
+	box-sizing:border-box;
+	margin-top:6px;
+	margin-bottom:16px;
+	resize:vertical;
+	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	
+	}
+input[type=password]{
+	width:400px;
+	padding:12px;float:left;
+	border:1px solid #ccc;
+	border-radius:1px;
+	box-sizing:border-box;
+	margin-top:6px;
+	margin-bottom:16px;
+	resize:vertical;
+	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	
+	}
+
+input[type=text], select, textarea {
+	width:400px;
+	padding:12px;
+	border:1px solid #ccc;
+	border-radius:1px;
+	box-sizing:border-box;
+	margin-top:6px;
+	margin-bottom:16px;
+	resize:vertical;float:left;
+	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;}
+	input[type=submit] {
+  background-color: #0984e3;
+  color:black;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 1px;
+  cursor: pointer;
+  float:left;
+  
+  margin-left:px;
+		font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;}
+
+/*input[type=submit]:hover {
+  background-color: white;
+  color:#0984e3;
+  
+  	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	border-style:solid;
+}*/
+tr{
+	float:none;}
+	
+	
+	
+	
+	
+	header{
+	width:100%;
+	height:120px;
+	background-color:transparent;
+	border-top-left-radius:30px;
+	color:#00F;
+	text-align:center;
+	margin-top:-80px;
+	}
+.dropdown{
+	position:relative;
+	display:inline-block;
+	padding-bottom: 20px;
+	padding-left: 0px;
+	padding-right: 20px;
+	padding-top: 20px;
+}
+.dropbtn {
+	background-color:transparent;
+	color:#000;
+	padding:0px;
+	font-size:23px;
+	border:none;
+	font-weight:500;
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	
+	
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color:transparent;
+  font-size:30px;
+  border-radius:8px;
+  min-width: 160px;
+  box-shadow: linear-gradient(to bottom, rgba( 900, 900, 252, 0.52), rgba(900, 19, 900, 0.54));
+  z-index: 1;
+
+
+
+background-color:transparent;
+	color:#FFF;
+	padding:0px;
+	font-size:23px;
+	border:none;
+	font-weight:500;
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+
+}
+.dropdown-content a {
+  color:#fff;
+  padding: 12px 16px;
+  text-decoration: none;
+  border-radius:1px;
+  display: block;
+  
+  
+  
+}
+.dropdown-content a:hover {
+	background-color:#0984e3; 
+	}
+
+.dropdown:hover .dropdown-content{
+	display: block;
+}
+.dropdown:hover .dropbtn {
+	background-color:transparent; 
+	border-radius:15px;  
+	color:#0984e3;
+	transition-delay:0.1s;
+	transition:0.3s;
+}
+
+.block{	background-color: #0984e3;
+  color:black;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 1px;
+  cursor: pointer;
+  float:none;
+  
+  margin-left:100px;
+		font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;}
+	
+	

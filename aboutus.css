@@ -1,0 +1,247 @@
+*{
+	padding: 0px;
+	margin:0px;
+	box-sizing: border-box;
+}#container
+{
+	width:100%;
+	height:2520px;;
+	background-color:transparent;}
+.section
+{
+	background-image:linear-gradient(to bottom 		right,rgba(41, 128, 185,0.4),rgba(52, 152, 219,0.2)) ,url(samuel-girven-VJ2s0c20qCo-unsplash.jpg);
+	height:230px;
+	background-position:center;
+	background-size:cover;
+	margin-bottom:-50px;
+}
+header{
+	width:100%;
+	height:120px;
+	background-color:transparent;
+	border-top-left-radius:30px;
+	color:#00F;
+	text-align:center;
+	margin-top:-40px;
+	}
+.dropdown{
+	position:relative;
+	display:inline-block;
+	padding-bottom: 20px;
+	padding-left: 0px;
+	padding-right: 20px;
+	padding-top: 20px;
+}
+.dropbtn {
+	background-color:transparent;
+	color:#000;
+	padding:0px;
+	font-size:23px;
+	border:none;
+	font-weight:500;
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	
+	
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color:transparent;
+  font-size:30px;
+  border-radius:8px;
+  min-width: 160px;
+  box-shadow: linear-gradient(to bottom, rgba( 900, 900, 252, 0.52), rgba(900, 19, 900, 0.54));
+  z-index: 1;
+
+
+
+background-color:transparent;
+	color:#fff;
+	padding:0px;
+	font-size:23px;
+	border:none;
+	font-weight:500;
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+
+}
+.dropdown-content a {
+  color:#fff;
+  padding: 12px 16px;
+  text-decoration: none;
+  border-radius:1px;
+  display: block;
+  
+  
+  
+}
+.dropdown-content a:hover {
+	background-color:#0984e3; 
+	}
+
+.dropdown:hover .dropdown-content{
+	display: block;
+}
+.dropdown:hover .dropbtn {
+	background-color:transparent; 
+	border-radius:15px;  
+	color:#0984e3;
+	transition-delay:0.1s;
+	transition:0.3s;
+}
+.igbox{
+	width:1450px;
+	height:700px;
+	background-color:transparent;
+	margin-bottom:0px;
+	}	
+.boxhp{
+	width:630px;
+	height:500px;
+	background-color:transparent;
+	float:right;
+	margin-top:200px;
+	margin-right:100px;
+}
+.section2{
+	background-image:linear-gradient(to bottom 		right,rgba(41, 128, 185,0.3),rgba(52, 152, 219,0.2)), url(dylan-nolte-ITDjGji__6Y-unsplash.jpg);
+	height:500px;
+	background-size:cover;
+	background-position:center;
+	margin-top:70px;
+	margin-bottom:80px;
+}
+
+.box{
+	width:350px;
+	height:200px;
+	background-color:transparent;
+	float:left;
+	margin-top:70px;
+	margin-left:80px;
+}
+.box1{
+	width:350px;
+	height:200px;
+	background-color:transparent;
+	float:left;
+	margin-top:70px;
+	margin-left:0px;
+
+	}	
+.box2{
+	width:350px;
+	height:200px;
+	background-color:transparent;
+	float:left;
+	margin-top:70px;
+	margin-left:0px;
+}
+.box3{
+	width:350px;
+	height:200px;
+	background-color:transparent;
+	float:left;
+	margin-top:70px;
+	margin-LEFT:0px;
+}	
+.boxcop{
+	width:1500px;
+	height:280px;
+	background-color:transparent;
+}
+.trainbox{
+	width:270px;
+	height:550px;
+	background-color:transparent;
+	float:left;
+	margin-left:200px;
+	transition: 0.5s;
+}
+.trainbox:hover{
+	 box-shadow: 0 0 15px rgba(33,33,33,1);}
+.trainbox1{
+	width:270px;
+	height:550px;
+	background-color:transparent;
+	margin-left:50px;
+	float:left;
+	transition: 0.5s;
+}
+.trainbox1:hover{
+	 box-shadow: 0 0 15px rgba(33,33,33,7);}
+
+.trainbox2{
+	width:270px;
+	height:550px;
+	background-color:transparent;
+	float:left;
+	margin-left:50px;
+	transition: 0.5s;
+}
+.trainbox2:hover{
+	 box-shadow: 0 0 15px rgba(33,33,33,7);}
+
+.trainbox3{
+	width:270px;
+	height:550px;
+	background-color:transparent;
+	float:left;
+	margin-left:50px;
+transition: 0.5s;
+}
+.trainbox3:hover{
+	 box-shadow: 0 0 15px rgba(33,33,33,7);}
+.traincop{
+	width:1570px;
+	height:300px;
+	background-color:transparent;}
+	.section4{
+	height:900px;
+	background-image:linear-gradient(to bottom right,rgba(41, 128, 185,0.2),rgba(52, 152, 219,0.5)) , url(victor.jpg);
+	background-position:center; background-size:cover;
+	margin-top:0px;}
+	
+input[type=text], select, textarea{
+	width:400px;
+	padding:12px;
+	border:1px solid #ccc;
+	border-radius:1px;
+	box-sizing:border-box;
+	margin-top:6px;
+	margin-bottom:16px;
+	resize:vertical;
+	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;}
+	input[type=submit] {
+  background-color: #0984e3;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 1px;
+  cursor: pointer;
+  float:left;
+  margin-left:50px;
+		font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;}
+
+input[type=submit]:hover {
+  background-color: white;
+  color:#0984e3;
+  font-weight:400;	
+  	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+}
+.feedbox{
+	width:700px;
+	height:300px;
+	background-color:transparent;
+	margin-left:50px;
+	float:left;
+	
+	}
+.boxfeed2{
+	width:900px;
+	height:900px;
+	background-color:transparent;}
+	.footerbox{
+		width:900px;
+		height:100px;
+		background-color:transparent;
+		}

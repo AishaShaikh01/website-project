@@ -1,0 +1,195 @@
+
+*{
+	padding: 0px;
+	margin:0px;
+	box-sizing: border-box;
+}#container
+{
+	width:100%;
+	height:1000px;
+	background-color:transparent;}
+.section
+{
+	background-image:linear-gradient(to bottom 	right,rgba(41, 128, 185,0.4),rgba(52, 152, 219,0.2)) ,url(samuel-girven-VJ2s0c20qCo-unsplash.jpg);
+	height:230px;
+	background-position:center;
+	background-size:cover;
+	margin-bottom:-50px;
+}
+header{
+	width:100%;
+	height:120px;
+	background-color:transparent;
+	border-top-left-radius:30px;
+	color:#00F;
+	text-align:center;
+	margin-top:-40px;
+	}
+.dropdown{
+	position:relative;
+	display:inline-block;
+	padding-bottom: 20px;
+	padding-left: 0px;
+	padding-right: 20px;
+	padding-top: 20px;
+}
+.dropbtn {
+	background-color:transparent;
+	color:#000;
+	padding:0px;
+	font-size:23px;
+	border:none;
+	font-weight:500;
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	
+	
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color:transparent;
+  font-size:30px;
+  border-radius:8px;
+  min-width: 160px;
+  box-shadow: linear-gradient(to bottom, rgba( 900, 900, 252, 0.52), rgba(900, 19, 900, 0.54));
+  z-index: 1;
+
+
+
+background-color:transparent;
+	color:#FFF;
+	padding:0px;
+	font-size:23px;
+	border:none;
+	font-weight:500;
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+
+}
+.dropdown-content a {
+  color:#fff;
+  padding: 12px 16px;
+  text-decoration: none;
+  border-radius:1px;
+  display: block;
+  
+  
+  
+}
+.dropdown-content a:hover {
+	background-color:#0984e3; 
+	}
+
+.dropdown:hover .dropdown-content{
+	display: block;
+}
+.dropdown:hover .dropbtn {
+	background-color:transparent; 
+	border-radius:15px;  
+	color:#0984e3;
+	transition-delay:0.1s;
+	transition:0.3s;
+}
+.section4{
+	height:900px;
+	background-image:linear-gradient(to bottom right,rgba(41, 128, 185,0.2),rgba(52, 152, 219,0.5)) , url(victor.jpg);
+	background-position:center; background-size:cover;
+	margin-top:0px;}
+	
+input[type=text], select, textarea{
+	width:400px;
+	padding:12px;
+	border:1px solid #ccc;
+	border-radius:1px;
+	box-sizing:border-box;
+	margin-top:6px;
+	margin-bottom:16px;
+	resize:vertical;
+	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;}
+	input[type=submit] {
+  background-color: #0984e3;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 1px;
+  cursor: pointer;
+  float:left;
+  margin-left:50px;
+		font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;}
+
+input[type=submit]:hover {
+  background-color: white;
+  color:#0984e3;
+  font-weight:400;	
+  	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+}
+.feedbox{
+	width:700px;
+	height:300px;
+	background-color:transparent;
+	margin-left:50px;
+	float:left;
+	
+	}
+.boxfeed2{
+	width:900px;
+	height:900px;
+	background-color:transparent;}
+	.footerbox{
+		width:900px;
+		height:100px;
+		background-color:transparent;}
+		td{
+	text-align:center;
+	background-color:#fff;}	
+	
+	.section4{
+	height:900px;
+	background-image:linear-gradient(to bottom right,rgba(41, 128, 185,0.2),rgba(52, 152, 219,0.5)) , url(victor.jpg);
+	background-position:center; background-size:cover;
+	margin-top:100px;}
+	
+input[type=text], select, textarea{
+	width:400px;
+	padding:12px;
+	border:1px solid #ccc;
+	border-radius:1px;
+	box-sizing:border-box;
+	margin-top:6px;
+	margin-bottom:16px;
+	resize:vertical;
+	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;}
+	input[type=submit] {
+  background-color: #0984e3;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 1px;
+  cursor: pointer;
+  float:left;
+  margin-left:50px;
+		font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;}
+
+input[type=submit]:hover {
+  background-color: white;
+  color:#0984e3;
+  font-weight:400;	
+  	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+}
+.feedbox{
+	width:700px;
+	height:300px;
+	background-color:transparent;
+	margin-left:50px;
+	float:left;
+	
+	}
+.boxfeed2{
+	width:900px;
+	height:900px;
+	background-color:transparent;}
+	.footerbox{
+		width:900px;
+		height:100px;
+		background-color:transparent;}
+	
+	
